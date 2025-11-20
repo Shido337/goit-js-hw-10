@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Promise Generator</title>
+    <link rel="stylesheet" href="./css/2-snackbar.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <form class="form">
+        <label class="label">
+          Delay (ms)
+          <input type="number" name="delay" required class="input" />
+        </label>
+
+        <fieldset class="fieldset">
+          <legend>State</legend>
+
+          <label class="radio-label">
+            <input type="radio" name="state" value="fulfilled" required />
+            Fulfilled
+          </label>
+
+          <label class="radio-label">
+            <input type="radio" name="state" value="rejected" required />
+            Rejected
+          </label>
+        </fieldset>
+
+        <button type="submit" class="btn">Create notification</button>
+      </form>
+    </div>
+
+    <script type="module" src="./js/2-snackbar.js"></script>
+  </body>
+</html>
