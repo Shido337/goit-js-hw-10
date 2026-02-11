@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Promise Generator</title>
+    <script type="module" crossorigin src="/goit-js-hw-10/snackbar.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/styles-LxZCRenL.js">
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/vendor-BbSUbo7J.js">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/styles-DvkoxvZz.css">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/vendor-C1gPI-5C.css">
+  </head>
+  <body>
+    <a class="back-link" href="./index.html">Go back</a>
+
+
+    <form class="form">
+      <div class="form-field">
+        <label>Delay (ms)</label>
+        <input type="number" name="delay" class="form-input" required />
+      </div>
+
+      <fieldset>
+        <legend>State</legend>
+        <label class="radio-group">
+          <input type="radio" name="state" value="fulfilled" required />
+          Fulfilled
+        </label>
+        <label class="radio-group">
+          <input type="radio" name="state" value="rejected" required />
+          Rejected
+        </label>
+      </fieldset>
+
+      <button type="submit">Create notification</button>
+    </form>
+  </body>
+</html>
